@@ -1,0 +1,30 @@
+# --- Secrets ---
+.env
+.env.*
+state.json
+
+# --- Virtual Environments ---
+.venv/
+venv/
+env/
+
+# --- uv & Build Artifacts ---
+dist/
+build/
+*.egg-info/
+.uv/
+
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# --- IDE ---
+.vscode/
+.idea/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
