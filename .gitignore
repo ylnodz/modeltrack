@@ -28,3 +28,9 @@ __pycache__/
 # --- OS ---
 .DS_Store
 Thumbs.db
+
+# v2 state
+*.db
+*.db-wal
+*.db-shm
+.env
